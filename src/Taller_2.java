@@ -11,8 +11,12 @@ tottoPrime.mostrarProducto();
 
 
 
+Estudiante e1 = new Estudiante();
+Estudiante e2 = new Estudiante("Gregorio", 18);
 
 
+e1.datos();
+e2.datos();
 
 
 

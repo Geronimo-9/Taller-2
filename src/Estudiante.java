@@ -8,7 +8,14 @@ public class Estudiante {
         this.nombre = nombre;
     }
 
+    public Estudiante(){
+        this("Elena", 28);
 
+    }
+
+    public void datos(){
+        System.out.println("Nombre estudiante: "+nombre+", Edad: "+edad+" ");
+    }
 
 
 
