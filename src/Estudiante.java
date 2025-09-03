@@ -17,7 +17,9 @@ public class Estudiante {
         System.out.println("Nombre estudiante: "+nombre+", Edad: "+edad+" ");
     }
 
-
+    public static void test(Estudiante){
+        return this(nombre, edad);
+    }
 
 
 

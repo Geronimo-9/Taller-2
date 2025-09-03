@@ -18,7 +18,15 @@ Estudiante e2 = new Estudiante("Gregorio", 18);
 e1.datos();
 e2.datos();
 
+String datos = informacion("elena", 23);
+        System.out.println(datos);
 
 
     }
+
+
+
+
+
 }
+
